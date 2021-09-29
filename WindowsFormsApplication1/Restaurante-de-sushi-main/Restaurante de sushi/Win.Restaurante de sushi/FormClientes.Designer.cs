@@ -1,6 +1,6 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace Win.Restaurante_de_sushi
 {
-    partial class Form1
+    partial class FormClientes
     {
         /// <summary>
         /// Required designer variable.
@@ -28,12 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FormClientes
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(282, 253);
+            this.Name = "FormClientes";
+            this.Text = "Clientes";
+            this.Load += new System.EventHandler(this.FormClientes_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-

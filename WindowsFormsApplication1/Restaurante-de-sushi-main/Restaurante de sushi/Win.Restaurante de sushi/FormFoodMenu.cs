@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApplication1
+namespace Win.Restaurante_de_sushi
 {
-    public partial class Form1 : Form
+    public partial class FormFoodMenu : Form
     {
-        public Form1()
+        public FormFoodMenu()
         {
             InitializeComponent();
         }

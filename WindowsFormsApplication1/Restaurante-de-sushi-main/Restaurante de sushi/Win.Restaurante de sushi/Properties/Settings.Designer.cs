@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Ventas.Properties
+namespace Win.Restaurante_de_sushi.Properties
 {
 
 
